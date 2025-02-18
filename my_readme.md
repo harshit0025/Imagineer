@@ -24,3 +24,5 @@ the easiest way is We need to deploy our application right now. We don't have a 
 Hum clerk se user information le rhe hai in [route.ts] file and hum udhar create, update, delete users kar rhe h by actually calling those functions in [user.actions.ts]
 
 [user.actions.ts] file mei hum ye sab functions implement kar rhe to store the information in the database
+
+for a new user, after creating the user, we simply mergge the clerkId with our userId.
