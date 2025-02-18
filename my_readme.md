@@ -20,3 +20,7 @@ Then it will send our data to event processing directly to our database, we can 
 the easiest way is We need to deploy our application right now. We don't have a lot of stuff to show but we need to deploy it so that we can expose our application endpoints to the internet so that once we create a new clerk user, it can ping that endpoint and therefore automatically creates a new user in our database.
 
 ###########################################################
+
+Hum clerk se user information le rhe hai in [route.ts] file and hum udhar create, update, delete users kar rhe h by actually calling those functions in [user.actions.ts]
+
+[user.actions.ts] file mei hum ye sab functions implement kar rhe to store the information in the database
