@@ -1,3 +1,5 @@
+//Server Actions
+//Every function is a server action in this file
 "use server"
 
 import { revalidatePath } from "next/cache";

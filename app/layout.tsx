@@ -34,13 +34,13 @@ export default function RootLayout({
       <html lang="en">
         <body
           className={ cn("font-IBMPlex antialiased", IBMPlex.variable) }>
-            <SignedOut>
-              <SignInButton />
-              <SignUpButton />
-            </SignedOut>
-            <SignedIn>
+            {/* <SignedOut> */}
+              {/* <SignInButton /> */}
+              {/* <SignUpButton /> */}
+            {/* </SignedOut> */}
+            {/* <SignedIn> */}
               {/* <UserButton /> */}
-            </SignedIn>
+            {/* </SignedIn> */}
           {children}
         </body>
       </html>
