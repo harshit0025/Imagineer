@@ -84,6 +84,3 @@ const MobileNav = () => {
 }
 
 export default MobileNav
-
-
-//Hello this is Harshit Yadav
